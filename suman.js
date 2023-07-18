@@ -4,7 +4,8 @@ const util = require('util')
 const chalk = require('chalk')
 const { Configuration, OpenAIApi } = require("openai")
 let setting = require('./api.json')
-const BOT_NAME = process.env.BOT_NAME ?? "Termux XYZ";
+const BOT_NAME = process.env.BOT_NAME ?? "CHAT GPT BOT BY ARIYAN AHMED 🇵🇰";
+const CREATOR = process.env.CREATOR ?? "Made by Ariyan Ahmed";
 
 module.exports = sansekai = async (client, m, chatUpdate, store) => {
     try {
